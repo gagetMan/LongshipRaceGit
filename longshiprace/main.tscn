@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://dfdpexu7uptlc"]
+[gd_scene load_steps=2 format=3 uid="uid://dfdpexu7uptlc"]
+
+[ext_resource type="PackedScene" uid="uid://bc63j4a5iwm1n" path="res://player.tscn" id="1_inoly"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_inoly")]
