@@ -21,7 +21,7 @@ func getInput():
 func _physics_process(delta: float) -> void:
 	input = getInput()
 	
-	if input == Vector2.ZERO or dodgeFric == true:
+	if input == Vector2.ZERO:
 		if velocity.length() > (friction * delta):
 			velocity -= velocity.normalized() * (friction * delta)
 		else:
@@ -30,4 +30,5 @@ func _physics_process(delta: float) -> void:
 		velocity += (input * accel * delta)
 		velocity = velocity.limit_length(maxSpeep)
 		rotation = lerp_angle(rotation,velocity.angle(),0.15)
-		
+	
+	move_and_slide()
