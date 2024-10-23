@@ -32,3 +32,6 @@ func _physics_process(delta: float) -> void:
 		rotation = lerp_angle(rotation,velocity.angle(),0.15)
 	
 	move_and_slide()
+	
+	if Global.over:
+		$TextEdit.visible = true

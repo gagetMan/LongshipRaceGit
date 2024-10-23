@@ -1,5 +1,6 @@
 res://main.tscn
-res://player.gd
 res://player.tscn
 res://rock.tscn
 res://rock.gd
+res://Global.gd
+res://player.gd

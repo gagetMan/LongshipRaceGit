@@ -4,7 +4,7 @@
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0kevf"]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["ship"]]
 script = ExtResource("1_ue3hx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -12,11 +12,13 @@ rotation = -1.5708
 shape = SubResource("CapsuleShape2D_0kevf")
 
 [node name="TextEdit" type="TextEdit" parent="."]
+visible = false
 offset_left = -140.0
 offset_top = -289.0
 offset_right = 147.0
 offset_bottom = -206.0
 theme_override_font_sizes/font_size = 50
 text = "Game Over"
+editable = false
 
 [node name="Camera2D" type="Camera2D" parent="."]
