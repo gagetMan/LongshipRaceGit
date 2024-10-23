@@ -1,2 +1,7 @@
+res://goll.tscn
 res://main.tscn
+res://player.tscn
+res://rock.tscn
+res://arrow.tscn
 res://world.gd
+res://player.gd

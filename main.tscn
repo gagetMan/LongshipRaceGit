@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://dfdpexu7uptlc"]
+[gd_scene load_steps=4 format=3 uid="uid://dfdpexu7uptlc"]
 
+[ext_resource type="Script" path="res://world.gd" id="1_ekk82"]
 [ext_resource type="PackedScene" uid="uid://bc63j4a5iwm1n" path="res://player.tscn" id="1_inoly"]
 [ext_resource type="PackedScene" uid="uid://b5j8x3xp8v6k" path="res://rock.tscn" id="2_o5ojg"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_ekk82")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_inoly")]
 position = Vector2(106, 53)
