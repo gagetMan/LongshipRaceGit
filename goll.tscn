@@ -1,13 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2rn3ige745ok"]
-
-[ext_resource type="Script" path="res://goll.gd" id="1_mq0cc"]
+[gd_scene load_steps=2 format=3 uid="uid://b2rn3ige745ok"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cwdhe"]
 
 [node name="Goll" type="Area2D" groups=["goll"]]
-script = ExtResource("1_mq0cc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(10, 10)
 shape = SubResource("CircleShape2D_cwdhe")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

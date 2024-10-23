@@ -3,7 +3,7 @@ extends CharacterBody2D
 class_name Player
 
 
-var maxSpeep = 1000.0
+var maxSpeep = 500.0
 var accel = 1000
 var friction = 1000
 var input = Vector2.ZERO

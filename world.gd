@@ -9,8 +9,9 @@ var offset = Vector2.ZERO
 
 func _ready() -> void:
 	offset = Vector2.ZERO
-	for i in range(200):
+	for i in range(100):
 		spawnRock()
+	spawnGoll()
 
 func _process(delta: float) -> void:
 	if player:
@@ -35,3 +36,9 @@ func spawnRock():
 	rock.global_position = Vector2(randX, randY)
 	add_child(rock)
 	
+func spawnGoll():
+	var goll = preload("res://goll.tscn").instantiate()
+	var randX = randi_range(-20000, 20000)
+	var randY = randi_range(-20000, 20000)
+	goll.global_position = Vector2(randX, randY)
+	add_child(goll)

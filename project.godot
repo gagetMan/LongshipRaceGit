@@ -22,6 +22,7 @@ Global="*res://Global.gd"
 [global_group]
 
 ship=""
+goll=""
 
 [input]
 
