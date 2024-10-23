@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729672531
-icon.svg::CompressedTexture2D::1838800113039138904::1729587159::1729588592::1::::<><>::
-main.tscn::PackedScene::7517318541013174780::1729672380::0::1::::<><>::uid://bc63j4a5iwm1n::::res://player.tscn<>uid://b5j8x3xp8v6k::::res://rock.tscn
-player.gd::GDScript::-1::1729670663::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::2592511753839410977::1729672380::0::1::::<><>::res://player.gd
-rock.gd::GDScript::-1::1729672380::0::1::::<>Area2D<>::
-rock.tscn::PackedScene::132726812751544532::1729672380::0::1::::<><>::res://rock.gd
+::res://::1729686938
+Global.gd::GDScript::-1::1729686916::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::1838800113039138904::1729686916::1729686939::1::::<><>::
+main.tscn::PackedScene::7517318541013174780::1729686916::0::1::::<><>::uid://bc63j4a5iwm1n::::res://player.tscn<>uid://b5j8x3xp8v6k::::res://rock.tscn
+player.gd::GDScript::-1::1729686916::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::2592511753839410977::1729686916::0::1::::<><>::res://player.gd
+rock.gd::GDScript::-1::1729686916::0::1::::<>Area2D<>::
+rock.tscn::PackedScene::132726812751544532::1729686916::0::1::::<><>::res://rock.gd
