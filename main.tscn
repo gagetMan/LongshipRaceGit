@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://dfdpexu7uptlc"]
+[gd_scene load_steps=3 format=3 uid="uid://dfdpexu7uptlc"]
 
 [ext_resource type="PackedScene" uid="uid://bc63j4a5iwm1n" path="res://player.tscn" id="1_inoly"]
+[ext_resource type="PackedScene" uid="uid://b5j8x3xp8v6k" path="res://rock.tscn" id="2_o5ojg"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_inoly")]
 position = Vector2(106, 53)
+
+[node name="Area2D" parent="." instance=ExtResource("2_o5ojg")]
+position = Vector2(337, 222)
