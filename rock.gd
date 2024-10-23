@@ -12,4 +12,5 @@ func _process(delta: float) -> void:
 
 
 func _on_body_entered(body: Node2D) -> void:
-	Global.over = true
+	if Global.finish == false:
+		Global.over = true

@@ -38,7 +38,7 @@ func spawnRock():
 	
 func spawnGoll():
 	var goll = preload("res://goll.tscn").instantiate()
-	var randX = randi_range(-20000, 20000)
-	var randY = randi_range(-20000, 20000)
+	var randX = randi_range(-2000, 2000)
+	var randY = randi_range(-2000, 2000)
 	goll.global_position = Vector2(randX, randY)
 	add_child(goll)

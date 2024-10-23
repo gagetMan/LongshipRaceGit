@@ -34,4 +34,6 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	if Global.over:
-		$TextEdit.visible = true
+		$TextLose.visible = true
+	if Global.finish:
+		$TextWin.visible = true
