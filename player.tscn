@@ -38,3 +38,10 @@ offset_right = 147.0
 offset_bottom = -206.0
 theme_override_font_sizes/font_size = 50
 text = "YOU WIN!!!"
+
+[node name="RestartButton" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Click to restart"
+
+[connection signal="pressed" from="RestartButton" to="." method="_on_restart_button_pressed"]
