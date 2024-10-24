@@ -12,5 +12,6 @@ func _process(delta: float) -> void:
 
 
 func _on_body_entered(body: Node2D) -> void:
+	$Crash.play()
 	if Global.finish == false:
 		Global.over = true

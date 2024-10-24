@@ -16,4 +16,6 @@ position = Vector2(-12.5, 9.5)
 scale = Vector2(1.30645, 1.27419)
 texture = ExtResource("2_exqox")
 
+[node name="Crash" type="AudioStreamPlayer2D" parent="."]
+
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

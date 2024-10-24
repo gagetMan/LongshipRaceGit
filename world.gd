@@ -9,7 +9,7 @@ var offset = Vector2.ZERO
 
 func _ready() -> void:
 	offset = Vector2.ZERO
-	for i in range(100):
+	for i in range(200):
 		spawnRock()
 	spawnGoll()
 
