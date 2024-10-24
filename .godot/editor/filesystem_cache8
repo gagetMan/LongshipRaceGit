@@ -1,18 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729767359
-arrow.gd::GDScript::-1::1729767305::0::1::::<>Node2D<>::
-arrow.tscn::PackedScene::4204231745676960181::1729767305::0::1::::<><>::res://arrow.gd
-Global.gd::GDScript::-1::1729767305::0::1::::<>Node<>::
-goll.gd::GDScript::-1::1729767305::0::1::::<>Area2D<>::
-goll.tscn::PackedScene::4317453636555599814::1729767305::0::1::::<><>::uid://bvkyoeuh7eyoe::::res://pngegg.png<>res://goll.gd
-icon.svg::CompressedTexture2D::1838800113039138904::1729767305::1729767360::1::::<><>::
-main.tscn::PackedScene::7517318541013174780::1729767305::0::1::::<><>::res://world.gd<>uid://bc63j4a5iwm1n::::res://player.tscn<>uid://djyfkteb2dth0::::res://VannBakgrunn 1.png
-player.gd::GDScript::-1::1729767305::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::2592511753839410977::1729767305::0::1::::<><>::res://player.gd<>uid://xipu6dwkhm56::::res://SkipOvenfra.png
-pngegg.png::CompressedTexture2D::3882512627923927616::1729767305::1729767360::1::::<><>::
-rock.gd::GDScript::-1::1729767305::0::1::::<>Area2D<>::
-rock.tscn::PackedScene::132726812751544532::1729767305::0::1::::<><>::res://rock.gd<>uid://228ry4ubw30::::res://Stein3.png
-SkipOvenfra.png::CompressedTexture2D::1631806530348318371::1729767305::1729767360::1::::<><>::
-Stein3.png::CompressedTexture2D::57437420679848209::1729767305::1729767360::1::::<><>::
-VannBakgrunn 1.png::CompressedTexture2D::7840829157026437563::1729767305::1729767360::1::::<><>::
-world.gd::GDScript::-1::1729767305::0::1::::<>Node2D<>::
+::res://::1729769703
+arrow.gd::GDScript::-1::1729688808::0::1::::<>Node2D<>::
+arrow.tscn::PackedScene::4204231745676960181::1729769535::0::1::::<><>::res://arrow.gd
+Global.gd::GDScript::-1::1729710397::0::1::::<>Node<>::
+goll.gd::GDScript::-1::1729710567::0::1::::<>Area2D<>::
+goll.tscn::PackedScene::4317453636555599814::1729769535::0::1::::<><>::uid://bvkyoeuh7eyoe::::res://pngegg.png<>res://goll.gd
+icon.svg::CompressedTexture2D::1838800113039138904::1729587159::1729688664::1::::<><>::
+main.tscn::PackedScene::7517318541013174780::1729769535::0::1::::<><>::res://world.gd<>uid://bc63j4a5iwm1n::::res://player.tscn<>uid://djyfkteb2dth0::::res://VannBakgrunn 1.png
+player.gd::GDScript::-1::1729769443::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::2592511753839410977::1729769535::0::1::::<><>::res://player.gd<>uid://xipu6dwkhm56::::res://SkipOvenfra.png
+pngegg.png::CompressedTexture2D::3882512627923927616::1729708234::1729708259::1::::<><>::
+rock.gd::GDScript::-1::1729767260::0::1::::<>Area2D<>::
+rock.tscn::PackedScene::132726812751544532::1729769535::0::1::::<><>::res://rock.gd<>uid://228ry4ubw30::::res://Stein3.png
+SkipOvenfra.png::CompressedTexture2D::1631806530348318371::1729689223::1729689244::1::::<><>::
+Stein3.png::CompressedTexture2D::57437420679848209::1729689099::1729689121::1::::<><>::
+VannBakgrunn 1.png::CompressedTexture2D::7840829157026437563::1729711024::1729711057::1::::<><>::
+world.gd::GDScript::-1::1729769436::0::1::::<>Node2D<>::
+ZOOM0009_TrLR.WAV::AudioStreamWAV::1334245969515049474::1729769701::1729769705::1::::<><>::
+ZOOM0012_TrLR.WAV::AudioStreamWAV::1577962196217440999::1729769685::1729769705::1::::<><>::
